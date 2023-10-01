@@ -1,0 +1,45 @@
+# MOS 6530 RRIOT
+# Pin Constraints File for iCE5LP1K-SG48
+
+set_io -nowarn A0      18
+set_io -nowarn A1      19
+set_io -nowarn A2      20
+set_io -nowarn A3      21
+set_io -nowarn A4      23
+set_io -nowarn A5      27
+set_io -nowarn A6      25
+set_io -nowarn A7      41
+set_io -nowarn A8      40
+set_io -nowarn A9      39
+set_io -nowarn RS0     28
+
+set_io -nowarn DB0     44
+set_io -nowarn DB1     45
+set_io -nowarn DB2     46
+set_io -nowarn DB3      6
+set_io -nowarn DB4      4
+set_io -nowarn DB5      3
+set_io -nowarn DB6      2
+set_io -nowarn DB7     48
+
+set_io -nowarn PA0     32
+set_io -nowarn PA1     34
+set_io -nowarn PA2     35
+set_io -nowarn PA3     36
+set_io -nowarn PA4     37
+set_io -nowarn PA5     38
+set_io -nowarn PA6     42
+set_io -nowarn PA7     43
+
+set_io -nowarn PB0     47
+set_io -nowarn PB1      9
+set_io -nowarn PB2     10
+set_io -nowarn PB3     11
+set_io -nowarn PB4     12
+set_io -nowarn CS2_PB5 13
+set_io -nowarn CS1_PB6 14
+set_io -nowarn IRQ_PB7 15
+
+set_io -nowarn PHI2    31
+set_io -nowarn RES     17
+set_io -nowarn R_W     26

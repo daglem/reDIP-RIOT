@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Inolux")(type "KiCad")(uri "${KIPRJMOD}/footprints/Inolux.pretty")(options "")(descr ""))
+  (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/footprints/onsemi.pretty")(options "")(descr ""))
+  (lib (name "reDIP")(type "KiCad")(uri "${KIPRJMOD}/footprints/reDIP.pretty")(options "")(descr ""))
+  (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/footprints/TI.pretty")(options "")(descr ""))
+)
