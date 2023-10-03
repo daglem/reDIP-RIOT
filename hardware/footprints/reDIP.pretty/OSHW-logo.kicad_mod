@@ -3,12 +3,12 @@
   (tedit 621BA6A2)
   (descr "Imported from graphics/OSHW-logo.svg")
   (tags "svg2mod")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "svg2mod" (at 0 -4.244538) (layer "F.SilkS") hide
+  (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -4.244538) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp 499449eb-e511-416f-8570-302fcdc7b9d6)
   )
-  (fp_text value "G***" (at 0 4.244538) (layer "F.SilkS") hide
+  (fp_text value "OSHW logo" (at 0 4.244538) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp d3b90378-8614-4c96-a4f4-d65cbd7c44b7)
   )

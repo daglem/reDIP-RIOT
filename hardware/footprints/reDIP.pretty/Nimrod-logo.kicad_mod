@@ -3,12 +3,12 @@
   (tedit 621BA623)
   (descr "Nimrod logo")
   (tags "svg2mod")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "svg2mod" (at 0 -4.162601) (layer "F.SilkS") hide
+  (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -4.162601) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp 27e0d9b0-39ad-45f9-85a5-c876ae8c22ab)
   )
-  (fp_text value "G***" (at 0 4.162601) (layer "F.SilkS") hide
+  (fp_text value "Nimrod logo" (at 0 4.162601) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp fc95e3c4-abd9-4e4f-9838-bf55ff3c4d47)
   )

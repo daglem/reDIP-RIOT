@@ -3,12 +3,12 @@
   (tedit 621BA61B)
   (descr "Nimrod N")
   (tags "svg2mod")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "svg2mod" (at 0 -4.150592) (layer "F.SilkS") hide
+  (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -4.150592) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp b39cd62a-05d5-45b8-b3a1-d2f855a03f9e)
   )
-  (fp_text value "G***" (at 0 4.150592) (layer "F.SilkS") hide
+  (fp_text value "Nimrod N" (at 0 4.150592) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp a6293838-577d-4da9-a5a7-ca09d375fd6d)
   )

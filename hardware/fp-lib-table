@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/footprints/onsemi.pretty")(options "")(descr ""))
   (lib (name "reDIP")(type "KiCad")(uri "${KIPRJMOD}/footprints/reDIP.pretty")(options "")(descr ""))
-  (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/footprints/TI.pretty")(options "")(descr ""))
 )

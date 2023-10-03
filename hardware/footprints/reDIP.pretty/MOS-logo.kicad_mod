@@ -3,12 +3,12 @@
   (tedit 621BA611)
   (descr "Imported from graphics/MOS-logo.svg")
   (tags "svg2mod")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "svg2mod" (at 0 -4.016869) (layer "F.SilkS") hide
+  (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -4.016869) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp 154356df-d96a-4426-aa08-058870f95ab8)
   )
-  (fp_text value "G***" (at 0 4.016869) (layer "F.SilkS") hide
+  (fp_text value "MOS logo" (at 0 4.016869) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
     (tstamp 73894dbb-be06-4c9d-b554-a3676ed6b03f)
   )
