@@ -2145,8 +2145,8 @@
     (tags "SOT-353 SC-70-5")
     (property "Description" "IC SCHMITT-TRIGGER INVERTER")
     (property "Mfg" "Diodes")
-    (property "Notes" "Replacement parts: 74AHC1G14 SOT-353/SC-70-5")
-    (property "PN" "74AHC1G14SE-7")
+    (property "Notes" "Replacement parts: 74AHCT1G14 SOT-353/SC-70-5")
+    (property "PN" "74AHCT1G14SE-7")
     (property "Sheetfile" "reDIP-RIOT.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Single Schmitt NOT Gate, Low-Voltage CMOS")
@@ -2157,7 +2157,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a83d2b7-579c-4f03-b73d-72c63844875f)
     )
-    (fp_text value "74AHC1G14" (at 0 2) (layer "F.Fab") hide
+    (fp_text value "74AHCT1G14" (at 0 2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1e2ab65f-43f8-4137-9dd3-a19b9d067eab)
     )
