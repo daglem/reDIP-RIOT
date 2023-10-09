@@ -5850,31 +5850,6 @@
     )
   )
 
-  (symbol (lib_id "reDIP:VCBT") (at 201.93 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2fc430f1-7417-4acd-8c63-69a391e9b12b)
-    (property "Reference" "#PWR030" (at 201.93 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCBT" (at 201.93 125.095 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 201.93 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 201.93 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 77238103-28b4-437a-83ad-6e4960e4e7e0))
-    (instances
-      (project "reDIP-RIOT"
-        (path "/34d03349-6d78-4165-a683-2d8b76f2bae8"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 52.07 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fde382b-6315-47a4-a96b-b15366237386)
@@ -6405,6 +6380,31 @@
       (project "reDIP-RIOT"
         (path "/34d03349-6d78-4165-a683-2d8b76f2bae8"
           (reference "#FLG03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 201.93 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid de5ae51f-25db-4cf1-8234-b56073585d98)
+    (property "Reference" "#PWR044" (at 201.93 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 202.311 125.1458 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 201.93 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 201.93 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 399c7d26-9be8-47bc-a580-8c33cf5af977))
+    (instances
+      (project "reDIP-RIOT"
+        (path "/34d03349-6d78-4165-a683-2d8b76f2bae8"
+          (reference "#PWR044") (unit 1)
         )
       )
     )
