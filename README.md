@@ -6,13 +6,13 @@
 ## Overview
 The reDIP RIOT is an open source FPGA board which combines the following in a DIP-40 size package:
 
-* Lattice iCE5LP1K FPGA
+* Lattice iCE40UP5K FPGA
 * 1Mbit FLASH
 * 5V tolerant I/O
 
 The reDIP RIOT provides an open source hardware platform for 6530 RRIOT / MOS 6532 RIOT replacements.
 
-Designs for the iCE5LP1K FPGA can be processed by [yosys](https://github.com/YosysHQ/yosys/) and [nextpnr](https://github.com/YosysHQ/nextpnr/).
+Designs for the iCE40UP5K FPGA can be processed by [yosys](https://github.com/YosysHQ/yosys/) and [nextpnr](https://github.com/YosysHQ/nextpnr/).
 
 ## I/O interfaces
 
@@ -23,7 +23,7 @@ Designs for the iCE5LP1K FPGA can be processed by [yosys](https://github.com/Yos
 * 3 FPGA open-drain I/O
 * GND
 
-All I/O is 5V tolerant, and can drive 5V TTL.
+All FPGA header I/O is 5V tolerant, and can drive 5V TTL.
 
 ### SPI / programming header:
 

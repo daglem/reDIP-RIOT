@@ -1,5 +1,5 @@
 # MOS 6530 RRIOT
-# Pin Constraints File for iCE5LP1K-SG48
+# Pin Constraints File for iCE40UP5K-SG48
 
 set_io -nowarn A0      18
 set_io -nowarn A1      19
