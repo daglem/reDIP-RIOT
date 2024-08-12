@@ -18,23 +18,23 @@ set_io -nowarn DB5   3
 set_io -nowarn DB6   2
 set_io -nowarn DB7  48
 
-set_io -nowarn PA0  25
-set_io -nowarn PA1  26
-set_io -nowarn PA2  27
-set_io -nowarn PA3  23
-set_io -nowarn PA4  21
-set_io -nowarn PA5  20
-set_io -nowarn PA6  19
-set_io -nowarn PA7  18
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA0  25
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA1  26
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA2  27
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA3  23
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA4  21
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA5  20
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA6  19
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PA7  18
 
-set_io -nowarn PB0   9
-set_io -nowarn PB1  10
-set_io -nowarn PB2  11
-set_io -nowarn PB3  12
-set_io -nowarn PB4  13
-set_io -nowarn PB5  14
-set_io -nowarn PB6  15
-set_io -nowarn PB7  17
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB0   9
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB1  10
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB2  11
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB3  12
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB4  13
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB5  14
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB6  15
+set_io -nowarn -pullup 1 -pullup_resistor 6P8K PB7  17
 
 set_io -nowarn CS1  36
 set_io -nowarn CS2  37
